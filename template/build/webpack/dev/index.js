@@ -6,4 +6,4 @@ const merge = require("webpack-merge");
 const DevServerConfig = require("./devServer.config");
 const SourceMapConfig = require("./sourceMap.config");
 
-module.exports = merge(DevServerConfig, SourceMapConfig);
+module.exports = merge({mode: "development"}, DevServerConfig, SourceMapConfig);

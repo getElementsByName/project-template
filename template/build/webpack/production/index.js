@@ -6,4 +6,4 @@ const merge = require("webpack-merge");
 const UglifyConfig = require("./uglify.config");
 const SourceMapConfig = require("./sourceMap.config");
 
-module.exports = merge(SourceMapConfig, UglifyConfig);
+module.exports = merge({mode: "production"}, SourceMapConfig, UglifyConfig);
