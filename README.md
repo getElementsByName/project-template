@@ -1,4 +1,4 @@
-# @why/project-template#master
+# @why/project-template#typescript
 ## 공통
 - 프로젝트 스케폴딩 템플릿
 - [`template`](./template) 폴더에 복사할 파일이 위치 한다.
@@ -15,3 +15,6 @@
 
 ## master
 - webpack 기반 개발 환경 기본 설정
+
+## typescript
+- typescript 개발 환경

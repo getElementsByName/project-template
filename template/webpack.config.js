@@ -8,7 +8,7 @@ const webpackProdConfig = require("./build/webpack/production");
 module.exports = ({dev = false} = {}) => {
 	const entryOutputConfig = {
 		entry: {
-			"bundle": ["./src/js/index.js"]	// "결과이름": [entry 파일 목록]
+			"<%= project.name.pascal %>": ["./src/js/index.ts"]	// "결과이름": [entry 파일 목록]
 		},
 		output: {
 			filename: "js/[name].js",	// 결과 파일 이름

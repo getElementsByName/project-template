@@ -4,5 +4,6 @@
 
 const merge = require("webpack-merge");
 const WebpackHtmlConfig = require("./html.config");
+const TypescriptConfig = require("./typescript.config");
 
-module.exports = merge(WebpackHtmlConfig);
+module.exports = merge(WebpackHtmlConfig, TypescriptConfig);
