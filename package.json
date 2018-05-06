@@ -1,0 +1,14 @@
+{
+  "name": "@why/project-template",
+  "version": "0.1.0",
+  "description": "",
+  "author": {
+    "name": "Yoo Wonhong",
+    "email": "korywh@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getElementsByName/project-template"
+  },
+  "license": "MIT"
+}
